@@ -1,0 +1,34 @@
+<h3> Desafio CategoryTree </h3>
+{{data}}
+<br><br>
+<button (click)='print()'>
+	ORDENAR Y AGRUPAR
+</button>
+<br><br>
+<b  *ngIf="tree">Resultado:</b>
+<ul *ngIf="tree">
+  <b>{{tree.id}} {{tree.name}}</b>
+  <li *ngFor="let item of tree.children">
+    {{item.id}} {{item.name}}
+    <ul>
+	  <li *ngFor="let child of item.children">
+	    {{child.id}} {{child.name}}
+	    <ul>
+		  <li *ngFor="let child2 of child.children">
+		    {{child2.id}} {{child2.name}}
+		     <ul>
+			  <li *ngFor="let child3 of child2.children">
+			    {{child3.id}} {{child3.name}}
+			     <ul>
+				  <li *ngFor="let child4 of child3.children">
+				    {{child4.id}} {{child4.name}}
+				  </li>
+				</ul>
+			  </li>
+			</ul>
+		  </li>
+		</ul>
+	  </li>
+	</ul>
+  </li>
+</ul>
