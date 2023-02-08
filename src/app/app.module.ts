@@ -3,15 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { UniqueArrayComponent } from './unique-array/unique-array.component';
-import { CategoryTreeComponent } from './category-tree/category-tree.component';
-import { PrinterComponent } from './printer/printer.component';
+import { UniqueArrayComponent } from './components/unique-array/unique-array.component';
+import { PrinterComponent } from './components/printer/printer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UniqueArrayComponent,
-    CategoryTreeComponent,
     PrinterComponent
   ],
   imports: [

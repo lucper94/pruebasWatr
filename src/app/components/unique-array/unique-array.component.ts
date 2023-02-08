@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DuplicateRemoverService } from "../duplicate-remover.service";
+import { DuplicateRemoverService } from "../../services/duplicate-remover.service";
 @Component({
   selector: 'app-unique-array',
   templateUrl: './unique-array.component.html',
