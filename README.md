@@ -1,4 +1,8 @@
 # AngularKataTest
+To run this project:
+1. Clone repo: https://github.com/lucper94/pruebasWatr.git
+2. Go to dir on terminal and run: npm i
+3. Run: npm start 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
 
